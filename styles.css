@@ -18,6 +18,41 @@ h1 {
     margin: 0;
 }
 
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #444;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
 footer {
     margin-top: 40px;
     padding-top: 20px;
